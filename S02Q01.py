@@ -3,4 +3,4 @@ GallonsofGasUsed = float(input("Enter the gallons of gas used"))
 
 MilesPerGallon = MilesDriven/GallonsofGasUsed
 
-print("The car's miles-per-gallon is",str(MilesPerGallon),"miles/gallon")
+print("The car's miles-per-gallon is",MilesPerGallon,"miles/gallon")
