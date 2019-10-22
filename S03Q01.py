@@ -1,6 +1,3 @@
-#Take 2 numbers from the user.Print which number is a 2 digit number
-#and which number is a 3 digit number.
-#If it is neither, then print the number as it is
 
 num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:"))
