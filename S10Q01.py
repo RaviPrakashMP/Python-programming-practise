@@ -8,7 +8,7 @@ with open(file_name) as FH:
      
 for line in FH:
 
-        words = line.split("\n")
+        words = line.split(".")
 
         if words[0] >= "A" and words[0] <= "Z":
 
