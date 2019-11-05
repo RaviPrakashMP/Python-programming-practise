@@ -2,16 +2,13 @@
 Get the name of the text file from the user. 
 Check if all the sentences in that text file begin with a capital letter.
 """
+file_name = input("Enter the file to be executed:")
 
-with open("Dhoni.txt") as FH:
+with open(file_name) as FH:
+     
+for line in FH:
 
-    text = FH.read()
-
-    all_lines = text.split('\n')
-
-    for line in all_lines:
-
-        words = line.split(".")
+        words = line.split("\n")
 
         if words[0] >= "A" and words[0] <= "Z":
 
